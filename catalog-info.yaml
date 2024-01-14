@@ -10,6 +10,13 @@ metadata:
       type: admin-dashboard
   annotations:
     backstage.io/techdocs-ref: dir:.
+    argocd/app-selector: rht-gitops.com/janus-argocd=rhdh-test
+    backstage.io/kubernetes-id: rhdh-test
+    janus-idp.io/tekton: rhdh-test
+    backstage.io/source-location: url:https://github.com/jduimovich/rhdh-test
+    backstage.io/techdocs-ref: url:https://github.com/jduimovich/rhdh-test
+    gitlab.com/project-slug: rhdh-test
+    quay.io/repository-slug: rhdh-test
   tags: ["go", "sscs", "sbom", "acs"] 
 spec:
   type: service
