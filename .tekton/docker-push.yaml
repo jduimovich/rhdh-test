@@ -27,7 +27,7 @@ spec:
   - name: image-expires-after
     value: 5d
   - name: output-image
-    value: image-registry.openshift-image-registry.svc:5000/test-gitlab/rhdh-test:{{revision}}
+    value: quay.io/jduimovich0/bootstrap:{{revision}}
   - name: path-context
     value: .
   - name: revision
